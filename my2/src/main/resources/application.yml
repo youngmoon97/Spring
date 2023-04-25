@@ -1,0 +1,16 @@
+server:
+  port: 6060
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:h2:mem:testdb2;MODE=MYSQL;
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2
