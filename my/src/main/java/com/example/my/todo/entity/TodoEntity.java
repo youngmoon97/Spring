@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TodoEntity {
+    // 재료들
     private Integer idx;
     private String content;
     private Character doneYn;

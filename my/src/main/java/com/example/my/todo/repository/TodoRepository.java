@@ -11,7 +11,7 @@ import com.example.my.todo.entity.TodoEntity;
 @Repository
 @Mapper
 public interface TodoRepository {
-
+    //데이터베이스 재료 조달
     TodoEntity findByIdx(Integer idx);
 
     List<TodoEntity> findByDeleteYn(Character deleteYn);

@@ -1,23 +1,21 @@
 package com.example.my.todo.service;
 
+import com.example.my.todo.entity.TodoEntity;
+import com.example.my.todo.repository.TodoRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.time.LocalDateTime;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
-
-import com.example.my.todo.entity.TodoEntity;
-import com.example.my.todo.repository.TodoRepository;
-
-import lombok.RequiredArgsConstructor;
-
 @Service
 @RequiredArgsConstructor
+@Transactional(readOnly = true)
 public class TodoService {
+    //재료를 받아 상품 만들어서 컨트롤러에게
     private final TodoRepository todoRepository;
 
-    public TodoEntity findByIdx(Integer idx){
-        return todoRepository.findByIdx(idx);
-    }
 
     public List<TodoEntity> findByDeleteYn(Character deleteYn){
         return todoRepository.findByDeleteYn(deleteYn);
