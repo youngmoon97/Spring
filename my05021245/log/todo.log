@@ -1,0 +1,499 @@
+2023-05-08 12:35:49.721 ERROR 11992 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.root' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.root
+    Value: "warm"
+    Origin: class path resource [application.yml] - 43:11
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.warm)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2023-05-08 14:36:57.255  INFO 14400 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 14400 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 14:36:57.256  INFO 14400 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 14:36:57.304  INFO 14400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 14:36:57.304  INFO 14400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 14:36:58.926  INFO 14400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 14:36:58.937  INFO 14400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 14:36:58.937  INFO 14400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 14:36:59.218  INFO 14400 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 14:36:59.230  INFO 14400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 14:36:59.231  INFO 14400 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1926 ms
+2023-05-08 14:36:59.256  INFO 14400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 14:36:59.492  INFO 14400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 14:36:59.504  INFO 14400 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 14:37:00.888  INFO 14400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 14:37:00.938  INFO 14400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 14:37:00.951  INFO 14400 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.227 seconds (JVM running for 4.915)
+2023-05-08 14:38:48.092  INFO 14400 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 14:38:48.092  INFO 14400 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 14:38:48.094  INFO 14400 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 14:38:48.930  INFO 14400 --- [http-nio-6060-exec-3] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 14:39:10.331  INFO 14400 --- [http-nio-6060-exec-5] c.e.m.t.controller.TodoControllerApiV2   : 3번 할 일 수정을 요청합니다.
+2023-05-08 14:39:10.386  INFO 14400 --- [http-nio-6060-exec-8] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 15:11:17.602  INFO 19612 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 19612 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 15:11:17.603  INFO 19612 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 15:11:17.654  INFO 19612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 15:11:17.655  INFO 19612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 15:11:19.153  INFO 19612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 15:11:19.164  INFO 19612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 15:11:19.164  INFO 19612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 15:11:19.443  INFO 19612 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 15:11:19.456  INFO 19612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 15:11:19.456  INFO 19612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1801 ms
+2023-05-08 15:11:19.483  INFO 19612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 15:11:19.735  INFO 19612 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 15:11:19.747  INFO 19612 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 15:11:21.083  INFO 19612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 15:11:21.131  INFO 19612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 15:11:21.143  INFO 19612 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.039 seconds (JVM running for 4.73)
+2023-05-08 15:37:09.289  INFO 11112 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 11112 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 15:37:09.290  INFO 11112 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 15:37:09.341  INFO 11112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 15:37:09.342  INFO 11112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 15:37:10.922  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 15:37:10.933  INFO 11112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 15:37:10.934  INFO 11112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 15:37:11.207  INFO 11112 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 15:37:11.219  INFO 11112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 15:37:11.219  INFO 11112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1876 ms
+2023-05-08 15:37:11.249  INFO 11112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 15:37:11.485  INFO 11112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 15:37:11.498  INFO 11112 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 15:37:12.846  INFO 11112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 15:37:12.893  INFO 11112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 15:37:12.906  INFO 11112 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.115 seconds (JVM running for 4.806)
+2023-05-08 15:38:44.658  INFO 11112 --- [http-nio-6060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 15:38:44.659  INFO 11112 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 15:38:44.660  INFO 11112 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 15:38:44.877  WARN 11112 --- [http-nio-6060-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.HttpEntity<?> com.example.my.todo.controller.TodoControllerApiV2.insert(com.example.my.todo.dto.TodoDTO$ReqBasic): [Field error in object 'reqBasic' on field 'content': rejected value [null]; codes [NotBlank.reqBasic.content,NotBlank.content,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reqBasic.content,content]; arguments []; default message [content]]; default message [내용을 입력해 주세요.]] ]
+2023-05-08 15:38:54.996  WARN 11112 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 삭제를 요청합니다.
+2023-05-08 15:51:35.603  WARN 11112 --- [http-nio-6060-exec-3] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 삭제를 요청합니다.
+2023-05-08 15:51:40.696  INFO 11112 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 15:51:40.709 ERROR 11112 --- [http-nio-6060-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.example.my.todo.entity.TodoEntity.getDoneYn()" because "todoEntity" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.my.todo.entity.TodoEntity.getDoneYn()" because "todoEntity" is null
+	at com.example.my.todo.service.TodoServiceApiV2.update(TodoServiceApiV2.java:57) ~[main/:na]
+	at com.example.my.todo.service.TodoServiceApiV2$$FastClassBySpringCGLIB$$98d01fd7.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.example.my.todo.service.TodoServiceApiV2$$EnhancerBySpringCGLIB$$b5f73852.update(<generated>) ~[main/:na]
+	at com.example.my.todo.controller.TodoControllerApiV2.update(TodoControllerApiV2.java:46) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:558) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-08 15:54:22.326  INFO 11112 --- [http-nio-6060-exec-7] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 15:54:22.328 ERROR 11112 --- [http-nio-6060-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.example.my.todo.entity.TodoEntity.getDoneYn()" because "todoEntity" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.my.todo.entity.TodoEntity.getDoneYn()" because "todoEntity" is null
+	at com.example.my.todo.service.TodoServiceApiV2.update(TodoServiceApiV2.java:57) ~[main/:na]
+	at com.example.my.todo.service.TodoServiceApiV2$$FastClassBySpringCGLIB$$98d01fd7.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.27.jar:5.3.27]
+	at com.example.my.todo.service.TodoServiceApiV2$$EnhancerBySpringCGLIB$$b5f73852.update(<generated>) ~[main/:na]
+	at com.example.my.todo.controller.TodoControllerApiV2.update(TodoControllerApiV2.java:46) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:558) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.74.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.74.jar:9.0.74]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-05-08 15:54:30.076  INFO 14944 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 14944 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 15:54:30.077  INFO 14944 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 15:54:30.128  INFO 14944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 15:54:30.128  INFO 14944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 15:54:31.659  INFO 14944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 15:54:31.672  INFO 14944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 15:54:31.672  INFO 14944 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 15:54:31.989  INFO 14944 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 15:54:32.000  INFO 14944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 15:54:32.000  INFO 14944 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1871 ms
+2023-05-08 15:54:32.024  INFO 14944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 15:54:32.287  INFO 14944 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 15:54:32.298  INFO 14944 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 15:54:33.688  INFO 14944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 15:54:33.735  INFO 14944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 15:54:33.747  INFO 14944 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.166 seconds (JVM running for 4.889)
+2023-05-08 15:54:44.351  INFO 14944 --- [http-nio-6060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 15:54:44.352  INFO 14944 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 15:54:44.353  INFO 14944 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 15:54:44.389  INFO 14944 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 16:14:52.521  INFO 14944 --- [http-nio-6060-exec-3] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 16:33:58.216  INFO 2652 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 2652 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 16:33:58.217  INFO 2652 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 16:33:58.266  INFO 2652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 16:33:58.266  INFO 2652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 16:33:59.792  INFO 2652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 16:33:59.803  INFO 2652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 16:33:59.803  INFO 2652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 16:34:00.085  INFO 2652 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 16:34:00.101  INFO 2652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 16:34:00.101  INFO 2652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1834 ms
+2023-05-08 16:34:00.126  INFO 2652 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 16:34:00.392  INFO 2652 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 16:34:00.403  INFO 2652 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 16:34:01.867  INFO 2652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 16:34:01.913  INFO 2652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 16:34:01.926  INFO 2652 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.229 seconds (JVM running for 5.012)
+2023-05-08 16:34:06.263  INFO 2652 --- [http-nio-6060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 16:34:06.263  INFO 2652 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 16:34:06.264  INFO 2652 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 16:34:06.294  INFO 2652 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 16:34:06.411  WARN 2652 --- [http-nio-6060-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException]
+2023-05-08 16:34:40.191  WARN 2652 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 삭제를 요청합니다.
+2023-05-08 16:34:40.193  WARN 2652 --- [http-nio-6060-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException: 해당하는 데이터가 없습니다.]
+2023-05-08 16:35:16.838  WARN 2652 --- [http-nio-6060-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-05-08 16:35:20.256  INFO 2652 --- [http-nio-6060-exec-7] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 16:35:20.258  WARN 2652 --- [http-nio-6060-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException]
+2023-05-08 16:36:19.489  INFO 16792 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 16792 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 16:36:19.491  INFO 16792 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 16:36:19.545  INFO 16792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 16:36:19.546  INFO 16792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 16:36:21.124  INFO 16792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 16:36:21.135  INFO 16792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 16:36:21.135  INFO 16792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 16:36:21.417  INFO 16792 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 16:36:21.428  INFO 16792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 16:36:21.428  INFO 16792 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1882 ms
+2023-05-08 16:36:21.455  INFO 16792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 16:36:21.856  INFO 16792 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 16:36:21.867  INFO 16792 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 16:36:23.240  INFO 16792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 16:36:23.288  INFO 16792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 16:36:23.302  INFO 16792 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.328 seconds (JVM running for 4.997)
+2023-05-08 16:36:27.373  INFO 16792 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 16:36:27.374  INFO 16792 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 16:36:27.375  INFO 16792 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 16:36:27.406  INFO 16792 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 16:36:27.522  WARN 16792 --- [http-nio-6060-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException]
+2023-05-08 17:07:26.458  INFO 21264 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 21264 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:07:26.460  INFO 21264 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:07:26.511  INFO 21264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:07:26.511  INFO 21264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:07:28.127  INFO 21264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:07:28.138  INFO 21264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:07:28.138  INFO 21264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:07:28.408  INFO 21264 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:07:28.419  INFO 21264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:07:28.420  INFO 21264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1907 ms
+2023-05-08 17:07:28.444  INFO 21264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:07:28.675  INFO 21264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:07:28.688  INFO 21264 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:07:30.118  INFO 21264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:07:30.168  INFO 21264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:07:30.179  INFO 21264 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.241 seconds (JVM running for 4.975)
+2023-05-08 17:07:36.245  INFO 21264 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:07:36.245  INFO 21264 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:07:36.247  INFO 21264 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 17:07:37.109  WARN 21264 --- [http-nio-6060-exec-3] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:37.119  INFO 21264 --- [http-nio-6060-exec-3] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:07:42.404  WARN 21264 --- [http-nio-6060-exec-4] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:42.405  INFO 21264 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 3번 할 일 수정을 요청합니다.
+2023-05-08 17:07:42.458  WARN 21264 --- [http-nio-6060-exec-7] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:42.459  INFO 21264 --- [http-nio-6060-exec-7] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:07:48.005  WARN 21264 --- [http-nio-6060-exec-8] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:48.006  INFO 21264 --- [http-nio-6060-exec-8] c.e.m.t.controller.TodoControllerApiV2   : 5번 할 일 수정을 요청합니다.
+2023-05-08 17:07:48.050  WARN 21264 --- [http-nio-6060-exec-1] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:48.051  INFO 21264 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:07:48.463  WARN 21264 --- [http-nio-6060-exec-2] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:48.463  INFO 21264 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 4번 할 일 수정을 요청합니다.
+2023-05-08 17:07:48.504  WARN 21264 --- [http-nio-6060-exec-5] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:48.504  INFO 21264 --- [http-nio-6060-exec-5] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:07:54.237  WARN 21264 --- [http-nio-6060-exec-6] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:54.237  INFO 21264 --- [http-nio-6060-exec-6] c.e.m.t.controller.TodoControllerApiV2   : 5번 할 일 수정을 요청합니다.
+2023-05-08 17:07:54.283  WARN 21264 --- [http-nio-6060-exec-9] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:54.284  INFO 21264 --- [http-nio-6060-exec-9] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:07:55.358  WARN 21264 --- [http-nio-6060-exec-10] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:55.358  INFO 21264 --- [http-nio-6060-exec-10] c.e.m.t.controller.TodoControllerApiV2   : 3번 할 일 수정을 요청합니다.
+2023-05-08 17:07:55.396  WARN 21264 --- [http-nio-6060-exec-3] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:07:55.397  INFO 21264 --- [http-nio-6060-exec-3] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:11:02.380  INFO 19996 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 19996 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:11:02.381  INFO 19996 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:11:02.428  INFO 19996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:11:02.429  INFO 19996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:11:04.080  INFO 19996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:11:04.091  INFO 19996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:11:04.092  INFO 19996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:11:04.385  INFO 19996 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:11:04.398  INFO 19996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:11:04.399  INFO 19996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1970 ms
+2023-05-08 17:11:04.427  INFO 19996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:11:04.675  INFO 19996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:11:04.687  INFO 19996 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:11:06.164  INFO 19996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:11:06.215  INFO 19996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:11:06.227  INFO 19996 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.333 seconds (JVM running for 5.033)
+2023-05-08 17:11:31.193  INFO 19996 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:11:31.194  INFO 19996 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:11:31.195  INFO 19996 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 17:11:31.225  WARN 19996 --- [http-nio-6060-exec-1] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:11:32.047  WARN 19996 --- [http-nio-6060-exec-2] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:11:32.054  INFO 19996 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:09.830  INFO 22368 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 22368 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:15:09.832  INFO 22368 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:15:09.882  INFO 22368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:15:09.883  INFO 22368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:15:11.588  INFO 22368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:15:11.599  INFO 22368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:15:11.599  INFO 22368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:15:11.868  INFO 22368 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:15:11.881  INFO 22368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:15:11.881  INFO 22368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+2023-05-08 17:15:11.925  INFO 22368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:15:12.155  INFO 22368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:15:12.166  INFO 22368 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:15:13.737  INFO 22368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:15:13.784  INFO 22368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:15:13.796  INFO 22368 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.47 seconds (JVM running for 5.152)
+2023-05-08 17:15:20.607  INFO 22368 --- [http-nio-6060-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:15:20.607  INFO 22368 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:15:20.609  INFO 22368 --- [http-nio-6060-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 17:15:20.638  WARN 22368 --- [http-nio-6060-exec-2] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:21.438  WARN 22368 --- [http-nio-6060-exec-1] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:21.444  INFO 22368 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:26.269  WARN 22368 --- [http-nio-6060-exec-4] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:26.270  INFO 22368 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 5번 할 일 수정을 요청합니다.
+2023-05-08 17:15:26.282  WARN 22368 --- [http-nio-6060-exec-5] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:26.323  WARN 22368 --- [http-nio-6060-exec-7] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:26.324  INFO 22368 --- [http-nio-6060-exec-7] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:35.135  WARN 22368 --- [http-nio-6060-exec-8] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:35.136  INFO 22368 --- [http-nio-6060-exec-8] c.e.m.t.controller.TodoControllerApiV2   : 4번 할 일 수정을 요청합니다.
+2023-05-08 17:15:35.144  WARN 22368 --- [http-nio-6060-exec-9] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:35.180  WARN 22368 --- [http-nio-6060-exec-2] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:35.180  INFO 22368 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:43.135  WARN 22368 --- [http-nio-6060-exec-3] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.135  INFO 22368 --- [http-nio-6060-exec-3] c.e.m.t.controller.TodoControllerApiV2   : 5번 할 일 수정을 요청합니다.
+2023-05-08 17:15:43.144  WARN 22368 --- [http-nio-6060-exec-1] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.181  WARN 22368 --- [http-nio-6060-exec-5] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.181  INFO 22368 --- [http-nio-6060-exec-5] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:43.583  WARN 22368 --- [http-nio-6060-exec-6] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.583  INFO 22368 --- [http-nio-6060-exec-6] c.e.m.t.controller.TodoControllerApiV2   : 4번 할 일 수정을 요청합니다.
+2023-05-08 17:15:43.591  WARN 22368 --- [http-nio-6060-exec-7] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.625  WARN 22368 --- [http-nio-6060-exec-9] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.626  INFO 22368 --- [http-nio-6060-exec-9] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:43.927  WARN 22368 --- [http-nio-6060-exec-10] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.927  INFO 22368 --- [http-nio-6060-exec-10] c.e.m.t.controller.TodoControllerApiV2   : 2번 할 일 수정을 요청합니다.
+2023-05-08 17:15:43.935  WARN 22368 --- [http-nio-6060-exec-2] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.967  WARN 22368 --- [http-nio-6060-exec-1] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:43.967  INFO 22368 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:15:46.310  WARN 22368 --- [http-nio-6060-exec-4] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:46.311  INFO 22368 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 3번 할 일 수정을 요청합니다.
+2023-05-08 17:15:46.319  WARN 22368 --- [http-nio-6060-exec-5] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:46.357  WARN 22368 --- [http-nio-6060-exec-7] com.example.my.common.CommonAdvice       : 요청이 들어왔습니다.
+2023-05-08 17:15:46.357  INFO 22368 --- [http-nio-6060-exec-7] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:16:02.045  INFO 6428 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 6428 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:16:02.046  INFO 6428 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:16:02.094  INFO 6428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:16:02.094  INFO 6428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:16:03.817  INFO 6428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:16:03.829  INFO 6428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:16:03.829  INFO 6428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:16:04.100  INFO 6428 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:16:04.112  INFO 6428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:16:04.113  INFO 6428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2018 ms
+2023-05-08 17:16:04.158  INFO 6428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:16:04.382  INFO 6428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:16:04.392  INFO 6428 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:16:06.058  INFO 6428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:16:06.104  INFO 6428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:16:06.116  INFO 6428 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.567 seconds (JVM running for 5.249)
+2023-05-08 17:16:30.247  INFO 20004 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 20004 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:16:30.248  INFO 20004 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:16:30.297  INFO 20004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:16:30.297  INFO 20004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:16:32.009  INFO 20004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:16:32.020  INFO 20004 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:16:32.020  INFO 20004 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:16:32.288  INFO 20004 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:16:32.301  INFO 20004 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:16:32.301  INFO 20004 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2003 ms
+2023-05-08 17:16:32.340  INFO 20004 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:16:32.565  INFO 20004 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:16:32.576  INFO 20004 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:16:34.191  INFO 20004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:16:34.239  INFO 20004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:16:34.252  INFO 20004 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.501 seconds (JVM running for 5.17)
+2023-05-08 17:16:36.341  INFO 20004 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:16:36.342  INFO 20004 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:16:36.343  INFO 20004 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 17:16:36.374  INFO 20004 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 2번 할 일 수정을 요청합니다.
+2023-05-08 17:16:37.287  INFO 20004 --- [http-nio-6060-exec-4] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:16:41.342  INFO 20004 --- [http-nio-6060-exec-5] c.e.m.t.controller.TodoControllerApiV2   : 3번 할 일 수정을 요청합니다.
+2023-05-08 17:16:41.389  INFO 20004 --- [http-nio-6060-exec-8] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:16:42.973  INFO 20004 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:16:44.535  INFO 20004 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 4번 할 일 수정을 요청합니다.
+2023-05-08 17:16:44.573  INFO 20004 --- [http-nio-6060-exec-5] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:23:08.191  INFO 19220 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 19220 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:23:08.192  INFO 19220 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:23:08.244  INFO 19220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:23:08.244  INFO 19220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:23:09.974  INFO 19220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:23:09.985  INFO 19220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:23:09.985  INFO 19220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:23:10.272  INFO 19220 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:23:10.284  INFO 19220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:23:10.285  INFO 19220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2039 ms
+2023-05-08 17:23:10.319  INFO 19220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:23:10.555  INFO 19220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:23:10.567  INFO 19220 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:23:12.155  INFO 19220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:23:12.202  INFO 19220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:23:12.214  INFO 19220 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.53 seconds (JVM running for 5.239)
+2023-05-08 17:23:17.714  INFO 19220 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:23:17.714  INFO 19220 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:23:17.716  INFO 19220 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 17:23:18.544  INFO 19220 --- [http-nio-6060-exec-2] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:23:22.726  INFO 19220 --- [http-nio-6060-exec-5] c.e.m.t.controller.TodoControllerApiV2   : 3번 할 일 수정을 요청합니다.
+2023-05-08 17:23:22.729  WARN 19220 --- [http-nio-6060-exec-5] com.example.my.common.CommonAdvice       : findByIdx 체크 중
+2023-05-08 17:23:22.731  WARN 19220 --- [http-nio-6060-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException]
+2023-05-08 17:23:22.774  INFO 19220 --- [http-nio-6060-exec-7] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:23:33.975  INFO 19220 --- [http-nio-6060-exec-8] c.e.m.t.controller.TodoControllerApiV2   : 5번 할 일 수정을 요청합니다.
+2023-05-08 17:23:33.976  WARN 19220 --- [http-nio-6060-exec-8] com.example.my.common.CommonAdvice       : findByIdx 체크 중
+2023-05-08 17:23:33.978  WARN 19220 --- [http-nio-6060-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException]
+2023-05-08 17:23:34.022  INFO 19220 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 리스트를 가져옵니다.
+2023-05-08 17:32:24.986  INFO 13348 --- [restartedMain] com.example.my.MyApplication             : Starting MyApplication using Java 17.0.6 on DESKTOP-FFS5E59 with PID 13348 (C:\intellijWorkSpace\my05021245\build\classes\java\main started by dita810 in C:\intellijWorkSpace\my05021245)
+2023-05-08 17:32:24.987  INFO 13348 --- [restartedMain] com.example.my.MyApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-05-08 17:32:25.037  INFO 13348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-08 17:32:25.037  INFO 13348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-08 17:32:26.714  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6060 (http)
+2023-05-08 17:32:26.726  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-08 17:32:26.726  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-08 17:32:26.999  INFO 13348 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-05-08 17:32:27.013  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-08 17:32:27.013  INFO 13348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1975 ms
+2023-05-08 17:32:27.048  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-08 17:32:27.280  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-08 17:32:27.292  INFO 13348 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2023-05-08 17:32:28.870  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-08 17:32:28.921  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6060 (http) with context path ''
+2023-05-08 17:32:28.933  INFO 13348 --- [restartedMain] com.example.my.MyApplication             : Started MyApplication in 4.434 seconds (JVM running for 5.132)
+2023-05-08 17:32:33.922  INFO 13348 --- [http-nio-6060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-08 17:32:33.922  INFO 13348 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-08 17:32:33.924  INFO 13348 --- [http-nio-6060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-08 17:32:33.956  INFO 13348 --- [http-nio-6060-exec-1] c.e.m.t.controller.TodoControllerApiV2   : 100번 할 일 수정을 요청합니다.
+2023-05-08 17:32:34.083  WARN 13348 --- [http-nio-6060-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.my.common.EntityNotFoundException: 해당하는 데이터가 없습니다.!]

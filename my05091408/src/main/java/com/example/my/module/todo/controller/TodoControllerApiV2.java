@@ -1,6 +1,5 @@
-package com.example.my.todo.controller;
+package com.example.my.module.todo.controller;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -12,20 +11,19 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.my.common.ResDTO;
-import com.example.my.todo.dto.TodoDTO;
-import com.example.my.todo.service.TodoServiceApiV2;
+import com.example.my.module.todo.dto.TodoDTO;
+import com.example.my.module.todo.service.TodoServiceApiV2;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
-import javax.validation.Valid;
 
 @Slf4j
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v2/todo")
 public class TodoControllerApiV2 {
-
+    
     private final TodoServiceApiV2 todoServiceApiV2;
 
     @GetMapping
@@ -36,7 +34,7 @@ public class TodoControllerApiV2 {
 
     @PostMapping
     public HttpEntity<?> insert(@Validated @RequestBody TodoDTO.ReqBasic reqDto) {
-        log.info("할 일 : " + reqDto.getContent() + " 추가를 요청합니다.");
+        log.info("할 일 ()" + reqDto.getContent() + ") 추가를 요청합니다.");
         return todoServiceApiV2.insert(reqDto);
     }
 

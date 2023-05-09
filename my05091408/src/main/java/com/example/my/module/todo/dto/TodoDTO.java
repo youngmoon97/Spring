@@ -1,17 +1,17 @@
-package com.example.my.todo.dto;
+package com.example.my.module.todo.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.example.my.todo.entity.TodoEntity;
+import javax.validation.constraints.NotBlank;
+
+import com.example.my.module.todo.entity.TodoEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.validation.constraints.NotBlank;
 
 public class TodoDTO {
 
