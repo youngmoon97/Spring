@@ -3,6 +3,7 @@ package com.example.my.common.exception.handler;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.example.my.common.exception.BadRequestException;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -51,5 +52,4 @@ public class CommonExceptionHandler {
                         .build(),
                 HttpStatus.BAD_REQUEST);
     }
-
 }

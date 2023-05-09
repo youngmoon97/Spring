@@ -26,7 +26,7 @@ public class TodoController {
         model.addAttribute("todoList", todoList);
         model.addAttribute("todoCount", todoCount);
 
-        return "login";
+        return "todoList";
     }
 
 }

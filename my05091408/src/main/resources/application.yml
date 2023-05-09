@@ -3,6 +3,11 @@ server:
 
 # JSP 경로 설정
 spring:
+  # Security
+  security:
+    user:
+      name: test
+      password: 123
   mvc:
     view:
       prefix: /WEB-INF/views/
@@ -46,3 +51,5 @@ logging:
     root: warn
   charset:
     file: UTF-8
+
+

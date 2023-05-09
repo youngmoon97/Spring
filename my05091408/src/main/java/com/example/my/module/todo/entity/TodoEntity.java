@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class TodoEntity {
     private Integer idx;
+    private Integer userIdx;
     private String content;
     private Character doneYn;
     private Character deleteYn;
